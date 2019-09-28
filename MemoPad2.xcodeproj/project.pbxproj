@@ -14,6 +14,7 @@
 		BB2163E2232E1659007B9EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2163E0232E1659007B9EFF /* LaunchScreen.storyboard */; };
 		BB2163ED232E1659007B9EFF /* MemoPad2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2163EC232E1659007B9EFF /* MemoPad2Tests.swift */; };
 		BB2163F8232E1659007B9EFF /* MemoPad2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2163F7232E1659007B9EFF /* MemoPad2UITests.swift */; };
+		BB216406232E1700007B9EFF /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB216405232E1700007B9EFF /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BB2163F3232E1659007B9EFF /* MemoPad2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPad2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2163F7232E1659007B9EFF /* MemoPad2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPad2UITests.swift; sourceTree = "<group>"; };
 		BB2163F9232E1659007B9EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB216405232E1700007B9EFF /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BB2163DE232E1659007B9EFF /* Assets.xcassets */,
 				BB2163E0232E1659007B9EFF /* LaunchScreen.storyboard */,
 				BB2163E3232E1659007B9EFF /* Info.plist */,
+				BB216405232E1700007B9EFF /* MemoViewController.swift */,
 			);
 			path = MemoPad2;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				BB2163DA232E1655007B9EFF /* ViewController.swift in Sources */,
 				BB2163D8232E1655007B9EFF /* AppDelegate.swift in Sources */,
+				BB216406232E1700007B9EFF /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
